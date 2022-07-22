@@ -22,7 +22,6 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
         setError('')
     }
     const addUser = () => {
-        console.log(users)
         if (name === '') {
             setError('Enter a name')
         } else {
