@@ -1,0 +1,33 @@
+
+.link {
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+
+.link:hover {
+    color: orange;
+}
+
+.active {
+    color: dodgerblue;
+}
+
+.block {
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    background: cornflowerblue;
+}
+
+.header {
+    width: 300px;
+    display: flex;
+    transition-duration: 500ms;
+    transform: translate(-240px);
+}
+
+.header:hover {
+    transition-duration: 500ms;
+    transform: translate(0);
+}

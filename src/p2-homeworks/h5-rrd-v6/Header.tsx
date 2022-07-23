@@ -1,12 +1,14 @@
 import React from 'react'
 import {NavLink} from "react-router-dom";
+import './hw5.css'
 
 function Header() {
     return (
-        <div>
-            <NavLink to = {'/'}>1</NavLink>
-            <NavLink to = {'/2'}>2</NavLink>
-
+        <div className={'header'}>
+            <NavLink to = {'/pre-junior'} className={'link'} >PreJunior</NavLink>
+            <NavLink to = {'/junior'} className={'link'} >Junior</NavLink>
+            <NavLink to = {'/junior+'} className={'link'} >JuniorPlus</NavLink>
+            <div className= 'block' />
         </div>
     )
 }
