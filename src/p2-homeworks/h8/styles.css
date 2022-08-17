@@ -1,0 +1,19 @@
+.buttons {
+    background-color: cornflowerblue;
+    margin: 10px;
+    border: dodgerblue solid;
+}
+
+.users {
+    display: flex;
+
+}
+
+.name {
+    color: #4b48d4;
+    justify-content: stretch;
+}
+
+.age {
+    justify-content: space-around;
+}
