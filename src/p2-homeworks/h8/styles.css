@@ -5,15 +5,15 @@
 }
 
 .users {
-    display: flex;
-
+    display: grid;
+    grid-template-columns: 150px 50px;
 }
 
-.name {
+.name, .age {
     color: #4b48d4;
-    justify-content: stretch;
+
 }
 
 .age {
-    justify-content: space-around;
+
 }
