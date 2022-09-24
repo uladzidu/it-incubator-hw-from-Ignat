@@ -16,7 +16,7 @@ function HW12() {
             </span>
 
             {/*should work (должно работать)*/}
-            {/*SuperSelect or SuperRadio*/}
+            SuperSelect or SuperRadio
 
             <hr/>
         </div>

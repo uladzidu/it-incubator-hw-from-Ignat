@@ -1,9 +1,10 @@
 import React from 'react'
+import {Hw13} from "../../h13/HW13";
 
 export function JuniorPlus() {
     return (
         <div>
-            JuniorPlus
+            <Hw13/>
         </div>
     )
 }
